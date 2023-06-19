@@ -1,0 +1,10 @@
+
+
+dependencies {
+
+    implementation("$boot:spring-boot-starter-web:$spring")
+    implementation("$boot:spring-boot-starter-thymeleaf:$spring")
+    implementation("org.thymeleaf.extras:thymeleaf-extras-springsecurity5")
+    implementation("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
+}
+

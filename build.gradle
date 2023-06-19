@@ -42,7 +42,7 @@ subprojects {
     }
 
     dependencies {
-//        developmentOnly("$boot:spring-boot-devtools:$spring")
+        developmentOnly("$boot:spring-boot-devtools:$spring")
         implementation "$boot:spring-boot-starter-security:$spring"
         implementation 'com.fasterxml.jackson.core:jackson-annotations'
 
