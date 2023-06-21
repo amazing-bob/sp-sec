@@ -22,13 +22,15 @@ public class MobileSecurityConfig {
         this.teacherManager = teacherManager;
     }
 
-    //FIXME 필터에서 403을 떨군다 이유룰 못참음 고칠 필요가 있다.
+
     @Bean
     public SecurityFilterChain apiSecurityFilterChain(HttpSecurity http) throws Exception {
         return http
                 .antMatcher("/api/**")
                 .csrf().disable()
                 .authorizeRequests(reqs -> reqs.anyRequest().authenticated() )
+                .authenticationProvider(studentManager)
+                .authenticationProvider(teacherManager)
                 .httpBasic()
                 .and()
                 .build();
