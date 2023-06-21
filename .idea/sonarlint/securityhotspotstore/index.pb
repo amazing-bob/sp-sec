@@ -94,8 +94,6 @@ w
 G.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,f/7/f7819ea138c33fec28e7e536cb2de34db38fc121
 w
 G.idea/sonarlint/issuestore/3/a/3aa73721f9595d7bc2fdf53f04771baa7b0eff95,4/b/4b794d690766d5c371808f15965144f69ade675a
-W
-'server/login-custom-filter/build.gradle,0/4/040696967a11f52016930729e112638b905e2635
 Å
 Qserver/login-custom-filter/src/main/java/com/sp/fc/web/config/SecurityConfig.java,2/e/2e86de8b0d32272ea7cb63a45774467f89dcaaf7
 ã
