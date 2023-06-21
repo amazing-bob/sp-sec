@@ -2,21 +2,15 @@ package com.sp.fc.web.config;
 
 import com.sp.fc.web.student.StudentManager;
 import com.sp.fc.web.teacher.TeacherManager;
-import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.csrf.CsrfFilter;
 
 @Order(1)
-@Configuration/**/
-//@EnableWebSecurity(debug = false)
-//@EnableGlobalMethodSecurity(prePostEnabled = true)
+@Configuration
 public class MobileSecurityConfig {
 
     CsrfFilter filter;
@@ -34,11 +28,9 @@ public class MobileSecurityConfig {
         return http
                 .antMatcher("/api/**")
                 .csrf().disable()
-                .authorizeRequests(reqs -> reqs.anyRequest().permitAll() )
+                .authorizeRequests(reqs -> reqs.anyRequest().authenticated() )
                 .httpBasic()
                 .and()
-                .authenticationProvider(studentManager)
-                .authenticationProvider(teacherManager)
                 .build();
     }
 

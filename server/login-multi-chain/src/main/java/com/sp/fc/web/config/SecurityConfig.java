@@ -35,6 +35,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
         return http
+                .antMatcher("/**")
                 .authorizeRequests(reqs ->
                         reqs.antMatchers("/", "/login").permitAll()
                                 .anyRequest().authenticated())
