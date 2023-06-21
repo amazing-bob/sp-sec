@@ -34,8 +34,6 @@ H
 server/web-common.gradle,2/f/2f46447216bfbad7e737d2c7e81403e9581a9ff9
 q
 A.idea/modules/server/basic-test/sp-sec.server-basic-test.main.iml,a/f/afb1a060ae86ff1db8ea818f1412d21fba7102ad
-Ñ
-Tserver/login-custom-filter/src/main/java/com/sp/fc/web/config/CustomLoginFilter.java,0/b/0b70a3e48e23ae57b32efb10517f4fcdc15a3506
 w
 G.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3,9/a/9aed88f31eac276604c6355c1adcc0bce1f80fd6
 w
@@ -46,16 +44,12 @@ Q.idea/sonarlint/securityhotspotstore/6/0/6053289b3bf980a8186bdd7a5955deab8835ed
 Q.idea/sonarlint/securityhotspotstore/e/e/ee2b00b9758772f8c2bf54d93adc6a1fc151b4d2,7/8/78b46a570b180778b2301067518dc55dc681550a
 Å
 Q.idea/sonarlint/securityhotspotstore/3/a/3aa73721f9595d7bc2fdf53f04771baa7b0eff95,e/5/e5abc1b8d450c2a5097e4d80db446e1a7c5b4ffc
-{
-Kserver/login-custom-filter/src/main/java/com/sp/fc/web/teacher/Teacher.java,b/9/b915aa1ab74c8db4ed45190864d995ac41f72990
 Å
 Q.idea/sonarlint/securityhotspotstore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e,2/a/2a357145b04aeee0545d8bc616c6d89a975ff771
 s
 C.idea/modules/server/login-basic/sp-sec.server-login-basic.main.iml,7/8/784df4195a93382a446d2415e2469f41232f7451
 É
 S.idea/modules/server/login-custom-filter/sp-sec.server-login-custom-filter.main.iml,b/b/bb7fef61b4d51c57eb3cbd275afafd509a57efd2
-Ç
-Rserver/login-custom-filter/src/main/java/com/sp/fc/web/student/StudentManager.java,b/1/b157abd33150ece9981e58c4f6bce0db5a025967
 Å
 Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88
 w
@@ -68,12 +62,8 @@ z
 Jserver/login-custom-filter/src/main/java/com/sp/fc/web/CustomLoginApp.java,7/c/7cfe1b2a10ae9d4a17b6192e4ad9a93406107680
 Å
 Q.idea/sonarlint/securityhotspotstore/a/6/a6f95f24c079c4d60c67b60d2a6da6df552addb5,9/6/96c88bc149582249dbe406513faeef6de56444e2
-é
-^server/login-custom-filter/src/main/java/com/sp/fc/web/student/StudentAuthenticationToken.java,5/c/5c2fd416780999c9b4aa1a58ac9f968d01a89a35
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec
-{
-Kserver/login-custom-filter/src/main/java/com/sp/fc/web/student/Student.java,c/4/c4fff57338b923cdbf4f50897f40398e3d8b7917
 w
 G.idea/sonarlint/issuestore/2/4/24139dae656713ba861751fb2c2ac38839349a7a,5/d/5d74986914a0b9184cba71859fe744836565fb6c
 Ç
@@ -96,8 +86,6 @@ w
 G.idea/sonarlint/issuestore/3/a/3aa73721f9595d7bc2fdf53f04771baa7b0eff95,4/b/4b794d690766d5c371808f15965144f69ade675a
 W
 'server/login-custom-filter/build.gradle,0/4/040696967a11f52016930729e112638b905e2635
-Å
-Qserver/login-custom-filter/src/main/java/com/sp/fc/web/config/SecurityConfig.java,2/e/2e86de8b0d32272ea7cb63a45774467f89dcaaf7
 ã
 [server/basic-authentication/src/main/java/com/sp/fc/web/BasicAuthenticationApplication.java,8/e/8e6a4103188cbeb38a041d077ca8a0ecb8aa1a33
 X
