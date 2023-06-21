@@ -22,6 +22,7 @@ import java.util.List;
 
 import static java.lang.String.format;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class MultiChainProxyApplicationTest {
@@ -40,6 +41,7 @@ public class MultiChainProxyApplicationTest {
         });
         System.out.println("res.getBody() = " + res.getBody());
         assertEquals(3, res.getBody().size());
+        assertNotNull(res.getBody());
     }
 
 
