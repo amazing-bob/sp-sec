@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-authentication/sp-sec.server-basic-authentication.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-authentication/sp-sec.server-basic-authentication.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-authentication/sp-sec.server-basic-authentication.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-authentication/sp-sec.server-basic-authentication.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-test/sp-sec.server-basic-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-test/sp-sec.server-basic-test.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-basic/sp-sec.server-login-basic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-basic/sp-sec.server-login-basic.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-custom-filter/sp-sec.server-login-custom-filter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-custom-filter/sp-sec.server-login-custom-filter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-multi-chain/sp-sec.server-login-multi-chain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-multi-chain/sp-sec.server-login-multi-chain.main.iml" />
     </modules>
   </component>
 </project>
