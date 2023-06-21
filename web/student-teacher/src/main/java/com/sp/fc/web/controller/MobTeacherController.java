@@ -14,13 +14,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/teacher")
 @RequiredArgsConstructor
-public class ApiTeacherController {
+public class MobTeacherController {
 
     private final StudentManager studentManager;
 
     @PreAuthorize("hasAnyAuthority('ROLE_TEACHER')")
     @GetMapping("/students")
-    public List<Student> studentList( Teacher teacher) {
+    public List<Student> students( Teacher teacher) {
 
         return studentManager.myStudentList(teacher.getId());
     }
