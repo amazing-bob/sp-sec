@@ -18,11 +18,22 @@
             <a href="/static"> 홈 페이지 </a>
         </div>
 
-        <ul>
-            <li th:each="student: ${studentList}" th:object="${student}" th:text="*{username}">
-                학생
-            </li>
-        </ul>
+        <div class="student-list col-6">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>아이디 </th>
+                        <th>이름 </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="sutudent:${studentList}" th:object="${sutudent}">
+                        <td th:text="*{id}"> hong</td>
+                        <td th:text="*{username}"> 홍길동</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     </div>
 </div>
